@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class spawnScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private Transform player;
+    [SerializeField] private Transform respawnPoint;
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        
+        //check to see if player is the Collider entering the space
+        if(other.CompareTag("Player"))
+        {
+            player.transform.position = respawnPoint.transform.position;
+            Physics.SyncTransforms();
+        }
     }
 }
