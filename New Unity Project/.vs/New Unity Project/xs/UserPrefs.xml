@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/enemyCollision.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/obstacleMovement.cs">
     <Files>
       <File FileName="Assets/Scripts/killBoxScript.cs" Line="10" Column="35" />
-      <File FileName="Assets/Scripts/spawnScript.cs" Line="6" Column="2" />
-      <File FileName="Assets/Scripts/enemyCollision.cs" Line="7" Column="5" />
+      <File FileName="Assets/Scripts/spawnScript.cs" />
+      <File FileName="Assets/Scripts/enemyCollision.cs" Line="18" Column="1" />
+      <File FileName="Assets/Scripts/obstacleMovement.cs" Line="9" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +12,7 @@
           <Node name="New Unity Project" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="enemyCollision.cs" selected="True" />
+                <Node name="obstacleMovement.cs" selected="True" />
               </Node>
             </Node>
           </Node>
