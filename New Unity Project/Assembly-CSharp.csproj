@@ -72,6 +72,7 @@
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vComment.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vExtensions.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vPickupItem.cs" />
+    <Compile Include="Assets\Scripts\enemyCollision.cs" />
     <Compile Include="Assets\Scripts\killBoxScript.cs" />
     <Compile Include="Assets\Scripts\spawnScript.cs" />
     <None Include="Assets\Invector-3rdPersonController_LITE\README_Basic.txt" />

@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/spawnScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/enemyCollision.cs">
     <Files>
       <File FileName="Assets/Scripts/killBoxScript.cs" Line="10" Column="35" />
       <File FileName="Assets/Scripts/spawnScript.cs" Line="6" Column="2" />
+      <File FileName="Assets/Scripts/enemyCollision.cs" Line="7" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,22 +11,17 @@
           <Node name="New Unity Project" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="spawnScript.cs" selected="True" />
+                <Node name="enemyCollision.cs" selected="True" />
               </Node>
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="New Unity Project" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b08b7bf8-c337-47ee-880d-e2df6c695ef8" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3d9b5f3b-5d1f-4cd4-9046-9506160a1129" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
