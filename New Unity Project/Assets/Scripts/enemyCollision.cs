@@ -5,8 +5,6 @@ using UnityEngine;
 public class enemyCollision : MonoBehaviour
 {
     //serializeField allows you to assign something to this in Unity
-    [SerializeField] private Transform player;
-    [SerializeField] private Transform respawnPoint;
 
     //this script kills the player when running into a block
     private void OnCollisionEnter(Collision collisionInfo)
@@ -15,7 +13,7 @@ public class enemyCollision : MonoBehaviour
         if (collisionInfo.collider.tag == "Player")
         {
             //if the box runs into a plyer, respawn the player
-            player.transform.position = respawnPoint.transform.position;
+            collisionInfo.collider.transform.position = GameObject.Find("respawnPoint").transform.position;
             Physics.SyncTransforms();
             //destroy the block
             Destroy(gameObject);

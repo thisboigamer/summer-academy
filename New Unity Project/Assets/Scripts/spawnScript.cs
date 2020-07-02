@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class spawnScript : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class spawnScript : MonoBehaviour
         {
             player.transform.position = respawnPoint.transform.position;
             Physics.SyncTransforms();
+            //reset the game
+            SceneManager.LoadScene("SampleScene");
         }
     }
 }
