@@ -63,7 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\3D Models\Others\HealthItem\vAnimateUV.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Camera\vThirdPersonCamera.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonAnimator.cs" />
@@ -75,8 +74,10 @@
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vPickupItem.cs" />
     <Compile Include="Assets\Scripts\enemyCollision.cs" />
     <Compile Include="Assets\Scripts\enemySpawner.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\killBoxScript.cs" />
     <Compile Include="Assets\Scripts\obstacleMovement.cs" />
+    <Compile Include="Assets\Scripts\scoreScript.cs" />
     <Compile Include="Assets\Scripts\spawnScript.cs" />
     <Compile Include="Assets\Scripts\winScript.cs" />
     <None Include="Assets\Invector-3rdPersonController_LITE\README_Basic.txt" />

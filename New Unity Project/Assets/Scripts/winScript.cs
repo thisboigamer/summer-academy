@@ -6,21 +6,12 @@ public class winScript : MonoBehaviour
 {
     private void OnTriggerEnter(Collider colliderInfo)
     {
+        //limit to only when Player enters the field
         if (colliderInfo.tag == "Player")
         //Collider target = Collider.GetComponent(colliderInfo.tag);
         {
-            Debug.Log("You Win!");
+            FindObjectOfType<GameManager>().WinGame();
         }
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  
 }
