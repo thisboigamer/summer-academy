@@ -13,10 +13,8 @@ public class spawnScript : MonoBehaviour
         //check to see if player is the Collider entering the space
         if(other.CompareTag("Player"))
         {
-            player.transform.position = respawnPoint.transform.position;
-            Physics.SyncTransforms();
-            //reset the game
-            SceneManager.LoadScene("SampleScene");
+            FindObjectOfType<GameManager>().EndGame();
+
         }
     }
 }
